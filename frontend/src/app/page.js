@@ -45,7 +45,7 @@ const Home = () => {
     } else if (isYesterday(date)) {
       return 'Kemarin jam ' + format(date, 'HH:mm');
     } else {
-      return format(date, 'MM/dd/yyyy jam HH:mm');
+      return format(date, 'MM/dd/yyyy HH:mm');
     }
   }
 
